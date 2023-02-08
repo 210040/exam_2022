@@ -1,0 +1,40 @@
+.message {
+    padding: 10px;
+    width: 300px;
+}
+
+.active {
+    background: teal;
+    color: white;
+}
+
+.frame {
+    padding: 10px;
+    width: 300px;
+    border: 5px solid red;
+}
+
+.menu {
+    padding: 20px;
+    background-color: teal ;
+}
+
+.menu a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.fadein {
+    animation-duration: 0.5s;
+    animation-name: fadein;
+}
+
+@keyframes fadein {
+    form {
+        color: white;
+    }
+    to {
+        color: red;
+    }
+}
